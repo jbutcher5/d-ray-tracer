@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"james"
+	],
+	"copyright": "Copyright © 2023, james",
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"name": "d-ray-tracer"
+}
