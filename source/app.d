@@ -26,7 +26,7 @@ class Vector3 {
 	}
 }
 
-Vector3 Add(Vector3 v1, Vector3 v2) pure @safe {
+Vector3 add(Vector3 v1, Vector3 v2) pure @safe {
 	return new Vector3(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
 }
 
@@ -35,7 +35,7 @@ void main()
 	Vector3 v1 = new Vector3(1, 2, 3);
 	Vector3 v2 = new Vector3(6, 3, 1);
 
-	v1 = v1.Add(v2);
+	v1 = v1.add(v2);
 
 	writeln(v1.x, v1.y, v1.z);
 }
